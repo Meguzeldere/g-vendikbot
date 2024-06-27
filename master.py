@@ -89,5 +89,4 @@ async def yardım(ctx):
         help_embed.add_field(name=f"{prefix}{command.name}", value=command.help, inline=False)
     await ctx.send(embed=help_embed)
 
-# Botu başlatmak için tokeni girin
 bot.run(auth)
